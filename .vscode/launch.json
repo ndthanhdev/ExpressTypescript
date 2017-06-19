@@ -8,7 +8,11 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}\\bin\\www.js"
+            "program": "${workspaceRoot}\\bin\\www",
+            "runtimeArgs": [
+                "--debug"
+            ],
+            "port": 5858
         }
     ]
 }
